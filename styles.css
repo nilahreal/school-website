@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E2423;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin: 0 15px;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar-item a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-menu.active {
+        display: flex;
+    }
+    .navbar-item {
+        margin: 10px 0;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+}
+
+.logo{
+    width:45px;
+    height: 45px;
+}
+
+.barfont{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titlefont{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.paragraphfont{
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+h1{
+    text-align: center;
+}
