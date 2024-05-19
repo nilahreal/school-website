@@ -1,3 +1,4 @@
+<!--This is going to be the hardest page to write.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,10 +18,58 @@
             <li class="navbar-item barfont"><a href="about.html">About</a></li>
             <li class="navbar-item barfont"><a href="menu.html">Menu</a></li>
             <li class="navbar-item barfont"><a href="contact.html">Contact</a></li>
+            <li class="navbar-item barfont"><a href="https://github.com/lightloss-real/school-website">Webite Source</a></li>
         </ul>
         <div class="navbar-toggle" id="navbar-toggle">☰</div>
     </nav>
     <script src="script.js"></script>
+    <h1 class="paragraphfont">The Menu</h1>
+    <div class="menu">
+        <h1>Our Menu</h1>
+        <div class="menu-category">
+            <h2>Burgers</h2>
+            <div class="menu-item">
+                <img src="burger.jpg" alt="Cheeseburger">
+                <div class="item-details">
+                    <h3>Cheeseburger</h3>
+                    <p>Juicy beef patty with cheddar cheese, lettuce, tomato, and our special sauce.</p>
+                    <p class="price">$5.99</p>
+                    <button class="order-btn" onclick="orderItem('Cheeseburger')">Order Now</button>
+                </div>
+            </div>
+            <!-- Add more menu items here -->
+        </div>
 
+        <div class="menu-category">
+            <h2>Sides</h2>
+            <div class="menu-item">
+                <img src="fries.jpg" alt="French Fries">
+                <div class="item-details">
+                    <h3>French Fries</h3>
+                    <p>Crispy golden fries served with ketchup.</p>
+                    <p class="price">$2.99</p>
+                    <button class="order-btn" onclick="orderItem('French Fries')">Order Now</button>
+                </div>
+            </div>
+            <!-- Add more menu items here -->
+        </div>
+
+        <div class="menu-category">
+            <h2>Drinks</h2>
+            <div class="menu-item">
+                <img src="cola.jpg" alt="Cola">
+                <div class="item-details">
+                    <h3>Cola</h3>
+                    <p>Refreshing cola served chilled.</p>
+                    <p class="price">$1.99</p>
+                    <button class="order-btn" onclick="orderItem('Cola')">Order Now</button>
+                </div>
+            </div>
+            <!-- Add more menu items here -->
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
 </body>
 </html>

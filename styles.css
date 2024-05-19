@@ -89,3 +89,61 @@ h1{
 p{
     text-align: center;
 }
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-category h2 {
+    color: #d23636;
+    border-bottom: 2px solid #d23636;
+    padding-bottom: 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3 {
+    margin: 0;
+    color: #333;
+}
+
+.item-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #d23636;
+}
+
+.order-btn {
+    background-color: #d23636;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.order-btn:hover {
+    background-color: #a12929;
+}
+
+/*That's a lotta CSS!*/
