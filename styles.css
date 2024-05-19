@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1E1D1B;
+    background-color: #242222;
     color:#EAFBDE;
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #EAFBDE;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -122,12 +122,12 @@ p{
 
 .item-details h3 {
     margin: 0;
-    color: #333;
+    color: #EAFBDE;
 }
 
 .item-details p {
     margin: 5px 0;
-    color: #666;
+    color: #EAFBDE;
 }
 
 .price {
