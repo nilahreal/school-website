@@ -149,3 +149,8 @@ p{
 }
 
 /*That's a lotta CSS!*/
+iframe{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
