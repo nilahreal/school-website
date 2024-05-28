@@ -4,6 +4,14 @@ body {
     padding: 0;
     background-color: #242222;
     color:#EAFBDE;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
 }
 
 .navbar {
@@ -148,7 +156,6 @@ p{
     background-color: #a12929;
 }
 
-/*That's a lotta CSS!*/
 iframe {
     margin:auto;
     display:block;
@@ -161,3 +168,49 @@ iframe {
     width: 50%;
     
   }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid #575757;
+    padding-bottom: 5px;
+}
+
+.footer-section p,
+.footer-section a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.indeximage{
+    width: 500px;
+    height: 500px;
+}
